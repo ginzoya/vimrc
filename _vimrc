@@ -1,0 +1,2 @@
+colorscheme slate
+syntax on
