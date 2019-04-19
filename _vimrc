@@ -28,6 +28,11 @@ if exists('+shellslash')
     set shellslash
 endif
 
+" for git bash whenever it runs vim
+if !exists('gui_running')
+    finish
+endif
+
 let g:python3_host_prog = 'C:/Users/Aaron/AppData/Local/Programs/Python/Python-37-32/python.exe'
 
 " for vim-hug-neovim-rpc
