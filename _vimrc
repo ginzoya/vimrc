@@ -29,7 +29,7 @@ if exists('+shellslash')
 endif
 
 " for git bash whenever it runs vim
-if !exists('gui_running')
+if !exists('g:GuiLoaded')
     finish
 endif
 
