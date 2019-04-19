@@ -5,3 +5,5 @@ syntax on
 set number
 
 set colorcolumn=80
+
+let g:netrw_liststyle = 3
